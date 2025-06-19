@@ -1,0 +1,189 @@
+What each HTML element does?
+
+Basic HTML Elements and Their Functions:
+
+<html>
+The root element that wraps all the content on the page.
+
+<head>
+Contains metadata about the document, like title, character set, styles, and scripts.
+
+<title>
+Sets the title of the webpage shown in the browser tab.
+
+<meta>
+Provides metadata such as character encoding or viewport settings.
+
+<link>
+Links external resources like stylesheets.
+
+<style>
+Contains internal CSS styles.
+
+<script>
+Embeds or links to JavaScript code.
+
+<body>
+Contains all the content displayed on the webpage.
+
+Content Sectioning Elements
+<header>
+Defines introductory content or navigation links.
+
+<nav>
+Contains navigation links.
+
+<main>
+Specifies the main content of the document.
+
+<section>
+Groups related content into sections.
+
+<article>
+Represents a self-contained composition, like a blog post or news article.
+
+<aside>
+Contains content tangentially related to the main content, like sidebars.
+
+<footer>
+Defines footer content for a section or page.
+Text Content Elements
+<h1> to <h6>
+Headings, with <h1> being the most important and <h6> the least.
+
+<p>
+Paragraph of text.
+
+<br>
+Inserts a line break.
+
+<hr>
+Creates a thematic break (horizontal rule).
+
+<pre>
+Displays preformatted text (preserves spaces and line breaks).
+
+<strong>
+Indicates strong importance, usually displayed bold.
+
+<em>
+Emphasizes text, usually italicized.
+
+<small>
+Represents fine print or side comments.
+
+Inline Text Formatting Elements:
+
+<a>
+Defines a hyperlink.
+
+<img>
+Embeds an image.
+
+<b>
+Bold text without added importance.
+
+<i>
+Italic text without added emphasis.
+
+<u>
+Underlined text.
+
+<del>
+Text that has been deleted.
+
+<ins>
+Text that has been inserted.
+
+List Elements
+<ul>
+Unordered (bulleted) list.
+
+<ol>
+Ordered (numbered) list.
+
+<li>
+List item inside <ul> or <ol>.
+
+<dl>
+Description list.
+
+<dt>
+Term/name in a description list.
+
+<dd>
+Description of the term/name.
+
+Table Elements
+<table>
+Defines a table.
+
+<tr>
+Table row.
+
+<th>
+Table header cell.
+
+<td>
+Table data cell.
+
+<caption>
+Table caption or title.
+
+<thead>
+Grouping of header rows.
+
+<tbody>
+Grouping of body rows.
+
+<tfoot>
+Grouping of footer rows.
+
+Form Elements
+<form>
+Container for form controls.
+
+<input>
+Input field (text, checkbox, radio, etc.).
+
+<textarea>
+Multi-line text input.
+
+<label>
+Label for a form control.
+
+<select>
+Drop-down list.
+
+<option>
+An option inside a <select> element.
+
+<button>
+Clickable button.
+
+Why you use specific input types?
+
+| Input Type | Purpose                       | Benefits                                          |
+| ---------- | ----------------------------- | ------------------------------------------------- |
+| `text`     | General text input            | Default for any text                              |
+| `email`    | Input for email addresses     | Validates email format; email keyboard on mobiles |
+| `number`   | Numeric input                 | Shows number keypad; restricts input to numbers   |
+| `password` | Password entry                | Masks input with dots or stars                    |
+| `date`     | Date selection                | Displays date picker UI                           |
+| `tel`      | Telephone numbers             | Shows phone keypad                                |
+| `url`      | Website URLs                  | Validates URL format; shows appropriate keyboard  |
+| `checkbox` | Select one or more options    | Toggle input                                      |
+| `radio`    | Select one option from many   | Mutually exclusive choices                        |
+| `file`     | Upload files                  | Opens file selector dialog                        |
+| `range`    | Select a value within a range | Slider UI                                         |
+| `color`    | Choose color                  | Color picker UI                                   |
+
+
+What is Navigation Structure?
+Navigation structure refers to how links and menus are organized on a webpage (or across a site) to help users move around easily and find information quickly.
+
+Using the <nav> Element: The <nav> element is a semantic container specifically meant for navigation links.
+
+Hierarchical Organization: Navigation menus are often organized as lists (<ul> and <li>) to create a logical order and structure.
+
+Linking Pages and Sections: Navigation links (<a href="...">) point to other pages or sections within the page.
